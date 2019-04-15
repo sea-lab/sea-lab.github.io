@@ -1,16 +1,11 @@
 {
-    "name": "casper",
+    "name": "sea-lab",
     "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
-    "demo": "https://demo.ghost.io",
     "version": "2.1.9",
     "engines": {
         "ghost": ">=1.2.0"
     },
     "license": "MIT",
-    "screenshots": {
-        "desktop": "assets/screenshot-desktop.jpg",
-        "mobile": "assets/screenshot-mobile.jpg"
-    },
     "author": {
         "name": "Ghost Foundation",
         "email": "hello@ghost.org",
