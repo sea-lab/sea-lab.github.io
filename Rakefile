@@ -12,13 +12,15 @@ require 'yaml'
 CONFIG = YAML.load(File.read('_config.yml'))
 USERNAME = CONFIG["username"]
 REPO = CONFIG["repo"]
+SOURCE_REPO = CONFIG["source_url"]
 SOURCE_BRANCH = CONFIG["branch"]
 DESTINATION_BRANCH = "gh-pages"
 CNAME = CONFIG["CNAME"]
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
-    sh "git clone https://$GIT_NAME:$GH_TOKEN@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+    # sh "git clone https://$GIT_NAME:$GH_TOKEN@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+    sh "git clone https://$GIT_NAME:$GH_TOKEN@#{SOURCE_REPO} #{CONFIG["destination"]}"
   end
 end
 

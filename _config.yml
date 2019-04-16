@@ -70,12 +70,12 @@ feed:
 safe: False
 lsi: False
 username: sea-lab
-repo: sea-leab.github.io
+repo: sea-lab.github.io
 branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
-production_url: https://sea-leab.github.io/
-source_url: https://github.com/sea-lab/sea-leab.github.io/
+production_url: https://sea-lab.github.io/
+source_url: github.com/sea-lab/sea-lab.github.io.git
 
 exclude:
   - assets/css
