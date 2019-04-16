@@ -65,3 +65,21 @@ zahra:
   bio: PhD student in Software Engineering
   section: phd
   current: True
+taha:
+  username: trsiddiqui
+  name: Taha Rehman Siddiqui
+  bio: Masters student at university of Manitoba
+  section: masters
+  current: False
+santoosh:
+  username: Santoosh
+  name: Santosh
+  bio: Summer intern 2018
+  section: undergrad
+  current: False
+shayan:
+  username: szamani
+  name: Shayan Zamani
+  bio: Best student.
+  section: masters
+  current: False

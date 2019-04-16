@@ -32,18 +32,17 @@ into the {body} of the default.hbs template -->
             </header>
  -->
 
-        <!-- <h2>Current</h2> -->
-
+        <h2>Current</h2>
         {% for type in site.people_order %}
             {% for author in site.data.authors %}
                 {% if author[1].current and author[1].section == type %}
-                <section class="people-item">
+                <section class="people-item ">
         
                 <div class="author-card">
                     {% if author[1].picture %}
-                        <img class="author-profile-image large" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ author[1].name }}" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ author[1].name }}" />
                     {% else %}
-                        <img class="author-profile-image large" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Missing_avatar.svg" alt="{{ author[1].name }}" />
+                        <img class="author-profile-image" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Missing_avatar.svg" alt="{{ author[1].name }}" />
                     {% endif %}
                     <section class="author-card-content">
                         <h4 class="author-card-name">
@@ -66,6 +65,40 @@ into the {body} of the default.hbs template -->
                 {%endif%}
             {% endfor %}
         {% endfor %}
+
+
+        <h2>Past</h2>
+        {% for author in site.data.authors %}
+            {% unless author[1].current %}
+            <section class="people-item small">
+    
+            <div class="author-card">
+                {% if author[1].picture %}
+                    <img class="author-profile-image" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ author[1].name }}" />
+                {% else %}
+                    <img class="author-profile-image" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Missing_avatar.svg" alt="{{ author[1].name }}" />
+                {% endif %}
+                <section class="author-card-content">
+                    <h4 class="author-card-name">
+                    {% if author[1].url_full %}
+                    <a href="author[1].url_full">{{ author[1].name }}</a>
+                    {% else %}
+                    {{ author[1].name }}
+                    {% endif %}
+                    </h4>
+                    <p>
+                        {% if author[1].long_bio %} 
+                        {{ author[1].long_bio }}
+                        {% else %}
+                        {{ author[1].bio }}
+                        {%endif%}
+                    </p>
+                </section>
+            </div>
+            </section>
+            {%endunless%}
+        {% endfor %}
+
         <h2>Prospective</h2>
         <p>Thanks for your interest, please send your CV and transcripts to hadi.hemmati@ucalgary.ca</p>
         

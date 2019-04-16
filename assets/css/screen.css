@@ -1170,9 +1170,25 @@ Usage (In Ghost editor):
     max-width: 840px;
 }
 
+.people-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px 0 10px 0;
+}
+.people-item:not(.small) {
+    padding: 1vw 0 2vw 0;
+    /* max-width: 840px; */
+}
+
 .author-card {
     display: flex;
     align-items: center;
+}
+
+.people-item:not(.small) .author-card {
+    align-items: initial !important;
 }
 
 .author-card .author-profile-image {
@@ -1181,15 +1197,26 @@ Usage (In Ghost editor):
     height: 60px;
 }
 
+.people-item:not(.small) .author-card .author-profile-image {
+    margin-right: 15px;
+    width: 180px;
+    height: 180px;
+}
+
 .author-card-name {
     margin: 0 0 2px 0;
     padding: 0;
     font-size: 2rem;
 }
 
+.people-item:not(.small) .author-card-name {
+    font-size: 3.7rem;
+    margin-bottom: 15px;
+}
+
 .author-card-name a {
     color: var(--darkgrey);
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .author-card-name a:hover {
@@ -1200,6 +1227,11 @@ Usage (In Ghost editor):
     margin: 0;
     color: var(--midgrey);
     line-height: 1.3em;
+}
+
+.people-item:not(.small) .author-card-content p {
+    font-size: 1.7rem;
+    text-align: justify;
 }
 
 .post-full-footer-right {
