@@ -1,51 +1,67 @@
-ghost:
-  username: ghost
-  name: Ghost
-  url_full: http://jekyller.github.io/jasper2/
-  url: jekyller.github.io/jasper2
-  bio: The professional publishing platform
-  picture: assets/images/ghost.png
-  facebook: ghost
-  twitter: tryghost
-  cover: False
-lewis:
-  username: lewis
-  name: Lewis Carroll
-  location: Cheshire, England
-  url_full: False
-  url: False
-  bio: My real name is Charles Lutwidge Dodgson, but people call me Lewis. I'm an English writer, mathematician, logician, Anglican deacon and photographer. People know me best for writing about Alice.
-  picture: assets/images/lewis.jpeg
-  facebook: False
-  twitter: False
-  cover: False
-edgar:
-  username: edgar
-  name: Edgar Rice Burroughs
-  location: Chicago, Illinois
-  url_full: False
-  url: False
-  bio: I'm an American novelist, best known for my work writing about a brave jungle hero called Tarzan and his muse, Jane.
-  picture: assets/images/edgar.gif
-  facebook: False
-  twitter: False
-  cover: False
-martin:
-  username: martin
-  name: Martin Luther King
-  location: Memphis, Tennessee
-  url_full: False
-  url: False
-  bio: An American pastor, activist, humanitarian. People know me for leading the African-American Civil Rights movement using nonviolent civil disobedience.
-  picture: assets/images/martin.jpg
-  facebook: False
-  twitter: False
-  cover: False
-
 mj:
-  username: mjafarmashhadi
+  username: mjafar
   name: Mohammad Jafar Mashhadi
   location: Calgary, Alberta
   url: mjafar.me
   url_full: https://mjafar.me
   bio: An ordinary genius.
+  section: masters
+  current: True
+hadi:
+  username: hadi
+  name: Hadi Hemmati
+  location: Calgary, Alberta
+  url: Schulich Homepage
+  url_full: https://schulich.ucalgary.ca/hemmati/
+  bio: Best supervisor ever.
+  long_bio: Faculty member. Tenure associate professor at Schulich School of Engineering, University of Calgary
+  twitter: hemmatihadi
+  picture: assets/images/people/hadi.jpg
+  section: faculty
+  current: True
+soheila:
+  username: soheila
+  name: Soheila Zangeneh
+  bio: Soheila is a MSc student in SEA Lab. She got her bachelor in Software Engineering at K.N.Toosi University of Technology in Tehran-Iran. She is interested in machine learning and its application in software engineering area. Currently, her research focus is test case generation and she is applying Deep Learning to automatically create test cases.
+  picture: assets/images/people/soheila.jpg
+  section: masters
+  current: True
+vesal:
+  username: vmvahdatpour
+  name: Maryam Vahdat Pour
+  bio: Maryam is a first year Master’s student in SEA Lab. She received her bachelor’s in Computer Science at University of Tehran, Tehran, Iran. Currently, She is mainly focused on the Tensor-flow ecosystem and is trying to find the most important challenges machine learning developers face in this ecosystem and try to come up with Software Engineering solutions for instance about debugging, version control, and program comprehension.
+  picture: assets/images/people/maryam.jpg
+  section: masters
+  current: True
+nima:
+  username: nimamiryeganeh
+  name: Nima Miryeganeh
+  bio: Masters student in Software Engineering
+  long_bio: |
+      My Current Research Focus: Automated Bug Localization 
+      My Favourite Topics: 
+      <ul>
+        <li>Natural Language Processing (NLP)</li>
+        <li>Machine Learning</li>
+        <li>Software Engineering</li>
+      </li>
+      My Favourite Coding Languages: Python
+      Internship:
+      6 months Internship at LocalIntel Inc. 
+      An Interactive Semi-Automatic Tool for Integeration of Geo-spatial Datasets
+      Desc: Goal of this project is to make an interactive semi-automated tool which can help the domain expert merge a new geospatial dataset with the database in a GIS system.
+  picture: assets/images/people/nima.jpg
+  section: masters
+  current: True
+masoud:
+  username: mkf
+  name: Masoud Karimi
+  bio: PhD student in Software Engineering
+  section: phd
+  current: True
+zahra:
+  username: salek
+  name: Zahra Salek-Shahrezaee
+  bio: PhD student in Software Engineering
+  section: phd
+  current: True
