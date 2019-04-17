@@ -1209,10 +1209,11 @@ Usage (In Ghost editor):
     padding: 0;
     font-size: 2rem;
 }
-
-.people-item:not(.small) .author-card-name {
-    font-size: 3.7rem;
-    margin-bottom: 15px;
+@media (min-width: 650px) {
+    .people-item:not(.small) .author-card-name {
+        font-size: 3.7rem;
+        margin-bottom: 15px;
+    }
 }
 
 .author-card-name a {
@@ -1228,11 +1229,12 @@ Usage (In Ghost editor):
     margin: 0;
     color: var(--midgrey);
     line-height: 1.3em;
-}
-
-.people-item:not(.small) .author-card-content p {
-    font-size: 1.7rem;
     text-align: justify;
+}
+@media (min-width: 650px) {
+    .people-item:not(.small) .author-card-content p {
+        font-size: 1.7rem;
+    }
 }
 
 .post-full-footer-right {
