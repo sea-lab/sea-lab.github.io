@@ -35,6 +35,7 @@ shayan:
   bio: Shayan is an MSc Student in Software Engineering. He holds a bachelor in Petroleum Engineering from Sharif University of Technology in Tehran, Iran. His current research is about investigating the effectiveness of hyperparameters’ tuning on different problems in SE specifically search-based software testing.
   section: masters
   current: True
+  picture: assets/images/people/shayan.jpg
 mj:
   username: mjafar
   name: Mohammad Jafar Mashhadi
