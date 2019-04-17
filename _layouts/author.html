@@ -15,17 +15,21 @@ logo: 'assets/images/ghost.png'
 <!-- Everything inside the #author tags pulls data from the author -->
 {% for author in site.data.authors %}
     {% if author[1].username == page.author %}
-    <header class="site-header outer {% if author[1].cover or page.cover %}" style="background-image: url({{ "/" | relative_url }}{% if author[1].cover %}{{ author[1].cover }}{% elsif page.cover %}{{ page.cover }}{% endif %}) {% else %}no-cover{% endif %}">
+    <header class="site-header outer {% if author[1].cover or page.cover %}" style="background-image: url({{ '/' | relative_url }}{% if author[1].cover %}{{ author[1].cover }}{% elsif page.cover %}{{ page.cover }}{% endif %}) {% else %}no-cover{% endif %}">
         <div class="inner">
             {% include site-nav.html %}
             <div class="site-header-content">
                 {% if author[1].picture %}
-                    <img class="author-profile-image" src="{{ "/" | relative_url }}{{ author[1].picture }}" alt="{{ page.author }}" />
+                    <img class="author-profile-image" src="{{ '/' | relative_url }}{{ author[1].picture }}" alt="{{ page.author }}" />
                 {% endif %}
                 <h1 class="site-title">{{ author[1].name }}</h1>
                 {% if author[1].bio %}
                     <h2 class="author-bio">{{ author[1].bio }}</h2>
                 {% endif %}
+                {% if author[1].long_bio %}
+                    <p>{{ author[1].long_bio }}</p>
+                {% endif %}
+                
                 <div class="author-meta">
                     {% if author[1].location %}
                         <div class="author-location">{{ author[1].location }} <span class="bull">&bull;</span></div>
@@ -42,7 +46,7 @@ logo: 'assets/images/ghost.png'
                     {% if author[1].facebook %}
                         <a class="social-link social-link-fb" href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
                     {% endif %}
-                    <a class="social-link social-link-rss" href="https://feedly.com/i/subscription/feed/{{ site.url }}{{ "/" | relative_url }}author/{{ page.author }}/feed.xml" target="_blank" rel="noopener">{% include rss.html %}</a>
+                    <a class="social-link social-link-rss" href="https://feedly.com/i/subscription/feed/{{ site.url }}{{ '/' | relative_url }}author/{{ page.author }}/feed.xml" target="_blank" rel="noopener">{% include rss.html %}</a>
                 </div>
             </div>
         </div>

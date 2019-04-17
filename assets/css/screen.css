@@ -1196,11 +1196,12 @@ Usage (In Ghost editor):
     width: 60px;
     height: 60px;
 }
-
-.people-item:not(.small) .author-card .author-profile-image {
-    margin-right: 15px;
-    width: 180px;
-    height: 180px;
+@media (min-width: 650px) {
+    .people-item:not(.small) .author-card .author-profile-image {
+        margin-right: 15px;
+        width: 180px;
+        height: 180px;
+    }
 }
 
 .author-card-name {

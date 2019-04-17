@@ -40,7 +40,7 @@ into the {body} of the default.hbs template -->
         
                 <div class="author-card">
                     {% if author[1].picture %}
-                        <img class="author-profile-image" src="{{ "/" | relative_url }}{{ author[1].picture }}" alt="{{ author[1].name }}" />
+                        <img class="author-profile-image" src="{{ '/' | relative_url }}{{ author[1].picture }}" alt="{{ author[1].name }}" />
                     {% else %}
                         <img class="author-profile-image" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Missing_avatar.svg" alt="{{ author[1].name }}" />
                     {% endif %}
@@ -74,7 +74,7 @@ into the {body} of the default.hbs template -->
     
             <div class="author-card">
                 {% if author[1].picture %}
-                    <img class="author-profile-image" src="{{ "/" | relative_url }}{{ author[1].picture }}" alt="{{ author[1].name }}" />
+                    <img class="author-profile-image" src="{{ '/' | relative_url }}{{ author[1].picture }}" alt="{{ author[1].name }}" />
                 {% else %}
                     <img class="author-profile-image" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Missing_avatar.svg" alt="{{ author[1].name }}" />
                 {% endif %}
@@ -92,6 +92,14 @@ into the {body} of the default.hbs template -->
                         {% else %}
                         {{ author[1].bio }}
                         {%endif%}
+                    </p>
+                    <p>
+                    {% if author[1].twitter %}
+                        <a class="social-link social-link-tw" href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+                    {% endif %}
+                    {% if author[1].facebook %}
+                        <a class="social-link social-link-fb" href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+                    {% endif %}
                     </p>
                 </section>
             </div>
