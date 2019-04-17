@@ -45,20 +45,32 @@ into the {body} of the default.hbs template -->
                         <img class="author-profile-image" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Missing_avatar.svg" alt="{{ author[1].name }}" />
                     {% endif %}
                     <section class="author-card-content">
-                        <h4 class="author-card-name">
-                        {% if author[1].url_full %}
-                        <a href="author[1].url_full">{{ author[1].name }}</a>
-                        {% else %}
-                        {{ author[1].name }}
-                        {% endif %}
-                        </h4>
+                        <h4 class="author-card-name">{{ author[1].name }}</h4>
                         <p>
-                           {% if author[1].long_bio %} 
+                            {% if author[1].long_bio %} 
                             {{ author[1].long_bio }}
                             {% else %}
                             {{ author[1].bio }}
                             {%endif%}
                         </p>
+
+                        <div class="author-meta">
+                            {% if author[1].location %}
+                                <div class="author-location">{{ author[1].location }} <span class="bull">&bull;</span></div>
+                            {% endif %}
+                            {% if author[1].url %}
+                                <a class="author-link author-link-wb" href="{{ author[1].url_full }}" target="_blank" rel="noopener">{% include website.html %}</a>
+                            {% endif %}
+                            {% if author[1].twitter %}
+                                <a class="author-link author-link-tw" href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+                            {% endif %}
+                            {% if author[1].facebook %}
+                                <a class="author-link author-link-fb" href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+                            {% endif %}
+                            {% if author[1].linkedin %}
+                                <a class="author-link author-link-li" href="https://www.linkedin.com/in/{{ author[1].linkedin }}/" target="_blank" rel="noopener">{% include linkedin.html %}</a>
+                            {% endif %}
+                        </div>
                     </section>
                 </div>
                 </section>
@@ -79,13 +91,7 @@ into the {body} of the default.hbs template -->
                     <img class="author-profile-image" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Missing_avatar.svg" alt="{{ author[1].name }}" />
                 {% endif %}
                 <section class="author-card-content">
-                    <h4 class="author-card-name">
-                    {% if author[1].url_full %}
-                    <a href="author[1].url_full">{{ author[1].name }}</a>
-                    {% else %}
-                    {{ author[1].name }}
-                    {% endif %}
-                    </h4>
+                    <h4 class="author-card-name">{{ author[1].name }}</h4>
                     <p>
                         {% if author[1].long_bio %} 
                         {{ author[1].long_bio }}
@@ -93,14 +99,24 @@ into the {body} of the default.hbs template -->
                         {{ author[1].bio }}
                         {%endif%}
                     </p>
-                    <p>
-                    {% if author[1].twitter %}
-                        <a class="social-link social-link-tw" href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
-                    {% endif %}
-                    {% if author[1].facebook %}
-                        <a class="social-link social-link-fb" href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
-                    {% endif %}
-                    </p>
+
+                    <div class="author-meta">
+                        {% if author[1].location %}
+                            <div class="author-location">{{ author[1].location }} <span class="bull">&bull;</span></div>
+                        {% endif %}
+                        {% if author[1].url %}
+                            <a class="author-link author-link-wb" href="{{ author[1].url_full }}" target="_blank" rel="noopener">{% include website.html %}</a>
+                        {% endif %}
+                        {% if author[1].twitter %}
+                            <a class="author-link author-link-tw" href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
+                        {% endif %}
+                        {% if author[1].facebook %}
+                            <a class="author-link author-link-fb" href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+                        {% endif %}
+                        {% if author[1].linkedin %}
+                            <a class="author-link author-link-li" href="https://www.linkedin.com/in/{{ author[1].linkedin }}/" target="_blank" rel="noopener">{% include linkedin.html %}</a>
+                        {% endif %}
+                    </div>
                 </section>
             </div>
             </section>

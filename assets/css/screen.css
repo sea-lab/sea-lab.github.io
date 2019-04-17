@@ -279,17 +279,17 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     height: 40px;
 }
 
-.social-links {
+.author-links {
     flex-shrink: 0;
     display: flex;
     align-items: center;
 }
 
-.social-links a:last-of-type {
+.author-links a:last-of-type {
     padding-right: 20px;
 }
 
-.social-link {
+.author-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,28 +299,32 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     opacity: 0.8;
 }
 
-.social-link:hover {
+.author-link:hover {
     opacity: 1;
 }
 
-.social-link svg {
+.author-link svg {
     height: 1.8rem;
     fill: #fff;
 }
 
-.social-link-fb svg {
+.author-link-fb svg {
     height: 1.5rem;
 }
 
-.social-link-wb svg {
+.author-link-li svg {
+    height: 1.9rem;
+}
+
+.author-link-wb svg {
     height: 1.6rem;
 }
 
-.social-link-wb svg path {
+.author-link-wb svg path {
     stroke: #fff;
 }
 
-.social-link-rss svg {
+.author-link-rss svg {
     height: 1.9rem;
 }
 
@@ -1182,6 +1186,26 @@ Usage (In Ghost editor):
     /* max-width: 840px; */
 }
 
+.people-item .author-meta {
+    z-index: 10;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+.people-item .author-meta .author-link {
+    display: flex;
+    margin: 0;
+}
+.people-item .author-link svg {
+    fill: var(--midgrey) !important;
+}
+
+.people-item .author-link-wb svg path {
+    stroke: var(--midgrey);
+}
+
 .author-card {
     display: flex;
     align-items: center;
@@ -1665,7 +1689,7 @@ Usage (In Ghost editor):
     opacity: 0.5;
 }
 
-.site-header-content .social-link:first-of-type {
+.site-header-content .author-link:first-of-type {
     padding-left: 4px;
 }
 

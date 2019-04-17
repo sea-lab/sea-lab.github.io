@@ -1,16 +1,6 @@
-mj:
-  username: mjafar
-  name: Mohammad Jafar Mashhadi
-  location: Calgary, Alberta
-  url: mjafar.me
-  url_full: https://mjafar.me
-  bio: An ordinary genius.
-  section: masters
-  current: True
 hadi:
   username: hadi
   name: Hadi Hemmati
-  location: Calgary, Alberta
   url: Schulich Homepage
   url_full: https://schulich.ucalgary.ca/hemmati/
   bio: Best supervisor ever.
@@ -18,20 +8,6 @@ hadi:
   twitter: hemmatihadi
   picture: assets/images/people/hadi.jpg
   section: faculty
-  current: True
-soheila:
-  username: soheila
-  name: Soheila Zangeneh
-  bio: Soheila is a MSc student in SEA Lab. She got her bachelor in Software Engineering at K.N.Toosi University of Technology in Tehran-Iran. She is interested in machine learning and its application in software engineering area. Currently, her research focus is test case generation and she is applying Deep Learning to automatically create test cases.
-  picture: assets/images/people/soheila.jpg
-  section: masters
-  current: True
-vesal:
-  username: vmvahdatpour
-  name: Maryam Vahdat Pour
-  bio: Maryam is a first year Master’s student in SEA Lab. She received her bachelor’s in Computer Science at University of Tehran, Tehran, Iran. Currently, She is mainly focused on the Tensor-flow ecosystem and is trying to find the most important challenges machine learning developers face in this ecosystem and try to come up with Software Engineering solutions for instance about debugging, version control, and program comprehension.
-  picture: assets/images/people/maryam.jpg
-  section: masters
   current: True
 nima:
   username: nimamiryeganeh
@@ -53,6 +29,41 @@ nima:
   picture: assets/images/people/nima.jpg
   section: masters
   current: True
+shayan:
+  username: szamani
+  name: Shayan Zamani
+  bio: Shayan is an MSc Student in Software Engineering. He holds a bachelor in Petroleum Engineering from Sharif University of Technology in Tehran, Iran. His current research is about investigating the effectiveness of hyperparameters’ tuning on different problems in SE specifically search-based software testing.
+  section: masters
+  current: True
+mj:
+  username: mjafar
+  name: Mohammad Jafar Mashhadi
+  url: mjafar.me
+  url_full: https://mjafar.me
+  bio: |
+    Mohammad Jafar (MJ) is doing his MSc on Specification Mining and Software Testing here at SEA lab. His research
+    is in collaboration with <a href="https://www.micropilot.com/" rel="nofollow" target="_blank">Micropilot Inc</a>, 
+    the world leader manufacturer of UAV autopilot software and hardware.
+    He completed his bachelor of Software Engineering at Sharif University of Technology in 2017. 
+    He is also a co-founder and technical director of Nivad Cloud startup.
+  linkedin: mjafarmashhadi
+  section: masters
+  current: True
+  picture: assets/images/people/mj.jpg
+soheila:
+  username: soheila
+  name: Soheila Zangeneh
+  bio: Soheila is a MSc student in SEA Lab. She got her bachelor in Software Engineering at K.N.Toosi University of Technology in Tehran-Iran. She is interested in machine learning and its application in software engineering area. Currently, her research focus is test case generation and she is applying Deep Learning to automatically create test cases.
+  picture: assets/images/people/soheila.jpg
+  section: masters
+  current: True
+vesal:
+  username: vmvahdatpour
+  name: Maryam Vahdat Pour
+  bio: Maryam is a first year Master’s student in SEA Lab. She received her bachelor’s in Computer Science at University of Tehran, Tehran, Iran. Currently, She is mainly focused on the Tensor-flow ecosystem and is trying to find the most important challenges machine learning developers face in this ecosystem and try to come up with Software Engineering solutions for instance about debugging, version control, and program comprehension.
+  picture: assets/images/people/maryam.jpg
+  section: masters
+  current: True
 masoud:
   username: mkf
   name: Masoud Karimi
@@ -68,18 +79,67 @@ zahra:
 taha:
   username: trsiddiqui
   name: Taha Rehman Siddiqui
-  bio: Masters student at university of Manitoba
+  bio: |
+    Masters student at university of Manitoba - Thesis: “Interactive Specification Mining for Debugging Embedded Software Systems” 
   section: masters
   current: False
 santoosh:
-  username: Santoosh
-  name: Santosh
-  bio: Summer intern 2018
+  username: santoosh
+  name: Tokala Santosh
+  bio: |
+    Summer intern 2018 - Research area: Using Autoencoders and generative models for Automated Testing
   section: undergrad
   current: False
-shayan:
-  username: szamani
-  name: Shayan Zamani
-  bio: Best student.
+almasi:
+  username: almasi
+  name: Mohammad Moein Almasi
   section: masters
-  current: True
+  current: False
+  bio: |
+    Thesis: “Search-based Testing in Financial Applications” 
+
+arefin:
+  current: False
+  section: masters
+  name: Arefin Sami
+  bio: |
+    Thesis: “Model-Based Testing of Safety-Critical Avionic Systems” 
+fateme:
+  current: False
+  section: masters
+  name: Fatemeh Sharif
+tanzeem:
+  current: False
+  section: masters
+  name: Tanzeem Bin Noor
+  bio: |
+    Thesis: “A Similarity-based Test Case Quality Metric using Historical Failure Data” 
+josiane:
+  current: False
+  section: phd
+  name: Josiane Kroll
+  bio: "Emerging Leaders in the Americas Program: Winter 2015"
+shai:
+  current: False
+  section: undergrad
+  name: Shai Fridboim
+vanessa:
+  current: False
+  section: undergrad
+  name: Vanessa Ramirez
+  bio: "Mitacs Global Link undergrad student: Summer 2015"
+mark:
+  current: False
+  section: undergrad
+  name: Mark Grushevski  
+  bio: Co-op undergrad student Fall 2014
+mai:
+  current: False
+  section: undergrad
+  name: Jiaxing Mai  
+  bio: "undergrad student: Summer 2014"
+fang:
+  current: False
+  section: undergrad
+  name: Zhihan Fang  
+  bio: "Mitacs Global Link undergrad student: Summer 2014"
