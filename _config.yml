@@ -5,8 +5,7 @@ paginate: 10 # it will paginate after this number
 language: 'en-ca'
 words_per_minute: 200
 
-# edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: '/'
+baseurl: ''
 
 # Website info
 title: SEA Lab
