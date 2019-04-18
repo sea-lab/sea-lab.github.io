@@ -88,6 +88,7 @@ taha:
 santoosh:
   username: santoosh
   name: Tokala Santosh
+  picture: assets/images/people/santosh.jpg
   bio: |
     Summer intern 2018 - Research area: Using Autoencoders and generative models for Automated Testing
   section: undergrad
