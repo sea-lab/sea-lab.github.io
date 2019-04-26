@@ -14,7 +14,7 @@ subclass: 'post page'
 [{{paper.title}}]({{paper.link}})
 {%else%}
 {{paper.title}}
-{%endif%}<br />
+{%endif%}<small> at {{ paper.venue }}</small><br />
 <small>{{paper.authors | join: ', ' }}</small>
 {% endfor %}
 

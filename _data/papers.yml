@@ -1,14 +1,15 @@
 _2019:
   - title: Advances in Techniques for Test Prioritization
     link: https://www.sciencedirect.com/science/article/pii/S0065245817300566
-    pdf: False
     abstract: With the increasing size of software systems and the continuous changes that are committed to the software's codebase, regression testing has become very expensive for real-world software applications. Test case prioritization is a classic solution in this context. Test case prioritization is the process of ranking existing test cases for execution with the goal of finding defects sooner. It is useful when the testing budget is limited and one needs to limit their test execution cost, by only running top n test cases, according to the testing budget. There are many heuristics and algorithms to rank test cases. In this chapter, we will see some of the most common test case prioritization techniques from software testing literature as well as trends and advances in this domain.
+    venue: ICSE 2019 - Montréal
     authors:
       - Hadi Hemmati
   - title: An Empirical Study on Practicality of Specification Mining Algorithms on a Real-world Application
     link: https://arxiv.org/abs/1903.11242
-    pdf: False
     abstract: Dynamic model inference techniques have been the center of many research projects recently. There are now multiple open source implementations of state-of-the-art algorithms, which provide basic abstraction and merging capabilities. Most of these tools and algorithms have been developed with one particular application in mind, which is program comprehension. The outputs models can abstract away the details of the program and represent the software behavior in a concise and easy to understand form. However, one application context that is less studied is using such inferred models for debugging, where the behavior to abstract is a faulty behavior (eg, a set of execution traces including a failed test case). We tried to apply some of the existing model inference techniques (implemented in a promising tool called MINT) in a real-world industrial context to support program comprehension for debugging. Our initial experiments have shown many limitations both in terms of implementation as well as the algorithms. The paper will discuss the root cause of the failures and proposes ideas for future improvement.
+    venue: ICPC 2019 - Colocated with ICSE, Montréal
     authors:
       - Mohammad Jafar Mashhadi
       - Hadi Hemmati
+
