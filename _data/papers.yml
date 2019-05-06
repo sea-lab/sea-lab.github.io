@@ -4,7 +4,7 @@ _2019:
     venue: Elsevier IST
     authors:
       - Mohammad Jafar Mashhadi
-      - Taha Rihmann Siddiqui
+      - Taha R Siddiqui
       - Hadi Hemmati
       - Howard Loewen
   - title: Advances in Techniques for Test Prioritization
@@ -50,3 +50,50 @@ _2018:
     authors:
       - Hadi Hemmati
       - Fatemeh Sharifi
+_2017:
+  - title: Studying test case failure prediction for test case prioritization
+    link: papers/false.pdf  # TODO
+    venue: ACM International Conference on Predictive Models and Data Analytics in Software Engineering
+    authors:
+      - Tanzeem Bin Noor
+      - Hadi Hemmati
+  - title: Analytics-based safety monitoring and verification
+    link: papers/2017-HemmatiArefinSiddiqui-Analytics.pdf
+    venue: 2017 IEEE International Conference on Systems, Man, and Cybernetics
+    authors:
+      - Hadi Hemmati
+      - Syed S Arefin
+      - Taha R Siddiqui
+  - title: 'An empirical study on the effect of testing on code quality using topic models: A case study on software development systems'
+    link: https://www.researchgate.net/profile/Tse_Hsun_Peter_Chen/publication/317611957_An_Empirical_Study_on_the_Effect_of_Testing_on_Code_Quality_Using_Topic_Models_A_Case_Study_on_Software_Development_Systems/links/5a7cc1d20f7e9b9da8d6feb9/An-Empirical-Study-on-the-Effect-of-Testing-on-Code-Quality-Using-Topic-Models-A-Case-Study-on-Software-Development-Systems.pdf
+    venue: IEEE Transactions on Reliability
+    authors:
+      - Tse-Hsun Chen
+      - Stephen W Thomas
+      - Hadi Hemmati
+      - Meiyappan Nagappan
+      - Ahmed E Hassan
+  - title: Prioritizing manual test cases in rapid release environments
+    link: papers/2017-HemmatiFangMantyla-Prioritizing.pdf
+    venue: Software Testing, Verification and Reliability
+    authors:
+      - Hadi Hemmati
+      - Zhihan Fang
+      - Mika V Mäntylä
+      - Bram Adams
+  - title: An empirical study of search-based task scheduling in global software development
+    link: papers/false.pdf  # TODO
+    venue: ICSE 2017
+    authors:
+      - Josiane Kroll
+      - Shai Friboim
+      - Hadi Hemmati
+  - title: 'An industrial evaluation of unit test generation: Finding real faults in a financial application'
+    link: http://www.evosuite.org/wp-content/papercite-data/pdf/icse17_experience.pdf
+    venue: ICSE 2017
+    authors:
+      - M Moein Almasi
+      - Hadi Hemmati
+      - Gordon Fraser
+      - Andrea Arcuri
+      - Jānis Benefelds
