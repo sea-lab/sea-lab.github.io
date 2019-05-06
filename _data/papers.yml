@@ -20,4 +20,33 @@ _2019:
     authors:
       - Mohammad Jafar Mashhadi
       - Hadi Hemmati
-
+  - title: Data Warehouse Testing
+    link: False
+    venue: Elsevier Advances in Computers
+    authors:
+      - Hajar Homayouni 
+      - Sudipto Ghosh
+      - Indrakshi Ray
+_2018:
+  - title: Search-based detection of deviation failures in the migration of legacy spreadsheet applications
+    link: https://mcminn.io/publications/c57.pdf
+    venue: 27th ACM SIGSOFT
+    authors:
+      - M Moein Almasi
+      - Hadi Hemmati
+      - Gordon Fraser
+      - Phil McMinn
+      - Janis Benefelds
+  - title: Evaluating specification-level MC/DC criterion in model-based testing of safety critical systems
+    link: papers/2018-HemmatiArefinLoewen-Evaluating.pdf
+    venue: ICSE 2018
+    authors:
+      - Hadi Hemmati
+      - Syed S Arefin
+      - Howard W Loewen
+  - title: Investigating NLP-Based Approaches for Predicting Manual Test Case Failure
+    link: papers/2018-HemmatiSharifi-Investigating.pdf
+    venue: ICST 2018
+    authors:
+      - Hadi Hemmati
+      - Fatemeh Sharifi
