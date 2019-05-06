@@ -145,4 +145,91 @@ _2015:
       - Debajyoti Mondal
       - Hadi Hemmati
       - Stephane Durocher
-      
+_2014:
+  - title: 'Model-based testing of video conferencing systems: challenges       - lessons learnt       - and results'
+    link: papers/2014-AliHemmati-Modelbased.pdf
+    venue: 2014 IEEE Seventh International Conference on Software Testing       - Verification and Validation
+    authors:
+      - Shaukat Ali
+      - Hadi Hemmati
+  - title: Static test case prioritization using topic models
+    link: https://www.researchgate.net/profile/Ahmed_E_Hassan/publication/257559877_Static_test_case_prioritization_using_topic_models/links/578fd94f08ae4e917cff391d/Static-test-case-prioritization-using-topic-models.pdf
+    venue: Empirical Software Engineering
+    authors:
+      - Stephen W Thomas
+      - Hadi Hemmati
+      - Ahmed E Hassan
+      - Dorothea Blostein
+  - title: 'ChronoTwigger: A Visual Analytics Tool for Understanding Source and Test Co-Evolution'
+    link: papers/2014-Ensetal-ChronoTwigger.pdf
+    venue: IEEE Working Conference on Software Visualization (VISSOFT)
+    authors:
+      - Barrett Ens       
+      - Daniel Rea       
+      - Roiy Shpaner       
+      - Hadi Hemmati       
+      - James E Young       
+      - Pourang Irani
+_2013:
+  - title: Using fault history to improve mutation reduction
+    link: https://cs.uwaterloo.ca/~rtholmes/papers/fse_2013_inozemtseva.pdf
+    venue: the 9th Joint Meeting on Foundations of Software Engineering
+    authors:
+      - Laura Inozemtseva
+      - Hadi Hemmati
+      - Reid Holmes
+  - title: Storm prediction in a cloud
+    link: http://plg.uwaterloo.ca/~migod/papers/2013/pesos13-orig.pdf
+    venue: 2013 5th International Workshop on Principles of Engineering Service-Oriented Systems (PESOS)
+    authors: 
+      - Ian Davis
+      - Hadi Hemmati
+      - Richard C Holt
+      - Michael W Godfrey
+      - Douglas Neuse
+      - Serge Mankovskii
+  - title: 'The MSR cookbook: Mining a decade of research'
+    link: papers/false.pdf  # TODO
+    venue: the 10th Working Conference on Mining Software Repositories
+    authors:
+      - Hadi Hemmati
+      - Sarah Nadi
+      - Olga Baysal
+      - Oleksii Kononenko
+      - Wei Wang
+      - Reid Holmes
+      - Michael W Godfrey
+  - title: Automatic detection of performance deviations in the load testing of large scale systems
+    link: https://sailhome.cs.queensu.ca/~swy/ciscxxx/papers/SEIP13Preprint.pdf
+    venue: 2013 ICSE
+    authors:
+      - Haroon Malik
+      - Hadi Hemmati
+      - Ahmed E Hassan
+  - title: Assisting developers of big data analytics applications when deploying on hadoop clouds
+    link: http://sail.cs.queensu.ca/Downloads/ICSE2013_AssistingDevelopersofBigDataAnalyticsApplicationsWhenDeployingOnHadoopClouds.pdf
+    venue: 2013 ICSE
+    authors:
+      - Weiyi Shang
+      - Zhen Ming Jiang
+      - Hadi Hemmati
+      - Brain Adams
+      - Ahmed E Hassan
+      - Patrick Martin
+  - title: Achieving scalable model-based testing through test case diversity
+    link: papers/false.pdf  # TODO
+    venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
+    authors:
+      - Hadi Hemmati
+      - Andrea Arcuri
+      - Lionel Briand
+  - title: An Empirical Investigation of An Adaptive Utilization Prediction Algorithm
+    link: https://cs.uwaterloo.ca/~ijdavis/ijdavis-adaptive-20130620.pdf
+    venue: 2013 CASCON
+    authors:
+      - I Davis
+      - H Hemmati
+      - R Holt
+      - M Godfrey
+      - D Neuse
+      - S Mankovskii
