@@ -106,3 +106,43 @@ _2016:
       - Taha R Siddiqui
       - Noman Mohammed
       - Hadi Hemmati
+_2015:
+  - title: A similarity-based approach for test case prioritization using historical failure data
+    link: papers/2015-NoorHemmati-Similarity.pdf
+    venue: ISSRE 2015
+    authors:
+      - Tanzim Bin Noor
+      - Hadi Hemmati
+  - title: How effective are code coverage criteria?
+    link: https://courses.cs.ut.ee/MTAT.03.159/2018_spring/uploads/Main/effectiveness-coverage-criteria.pdf
+    venue: 2015 IEEE International Conference on Software Quality, Reliability and Security
+    authors:
+      - Hadi Hemmati
+  - title: 'Investigating the effect of “defect co-fix” on quality assurance resource allocation: A search-based approach'
+    link: https://sailhome.cs.queensu.ca/~mei/publications/JSS2014-Hemmati.pdf
+    venue: Journal of Systems and Software
+    authors:
+      - Hadi Hemmati
+      - Meiyappan Nagappan
+      - Ahmed E Hassan
+  - title: 'Test case analytics: Mining test case traces to improve risk-driven testing'
+    link: papers/2015-NoorHemmati-Test.pdf
+    venue: 2015 IEEE 1st International Workshop on Software Analytics (SWAN)
+    authors:
+      - Tanzim Bin Noor
+      - Hadi Hemmati
+  - title: Prioritizing Manual Test Cases in Traditional and Rapid Release Environments
+    link: http://mikamantyla.eu/2015_Hemmati_Prioritizing_Manual_Test_Cases_ICST_2015.pdf
+    venue: International Conference on Software Testing, Verification, and Validation
+    authors:
+      - Hadi Hemmati
+      - Zhihan Fang
+      - Mika V Mäntylä
+  - title: Exploring Test Suite Diversification and Code Coverage in Multi-Objective Test Case Selection
+    link: papers/2015-MondalHemmatiDurocher-Exploring.pdf
+    venue: International Conference on Software Testing, Verification, and Validation
+    authors:
+      - Debajyoti Mondal
+      - Hadi Hemmati
+      - Stephane Durocher
+      
