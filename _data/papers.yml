@@ -233,3 +233,24 @@ _2013:
       - M Godfrey
       - D Neuse
       - S Mankovskii
+_2012:
+  - title: Modeling robustness behavior using aspect-oriented modeling to support robustness testing of industrial systems
+    link: papers/2012-AliBriandHemmati-Modeling.pdf
+    venue: Software & Systems Modeling
+    authors:
+      - Shaukat Ali
+      - Lionel C Briand
+      - Hadi Hemmati
+_2011:
+  - title: Empirical investigation of the effects of test suite properties on similarity-based test case selection
+    link: papers/2011-HemmatiArcuriBriand-Empirical.pdf
+    venue: 2011 Fourth IEEE International Conference on Software Testing, Verification and Validation
+    authors:
+      - Hadi Hemmati
+      - Andrea Arcuri
+      - Lionel Briand
+  # - title: 'Similarity-based test case selection: Toward scalable and practical model-based testing'
+  #   link: False  # TODO
+  #   venue: Phd thesis, Simula Research Laboratory and Informatic Department, University of Oslo
+  #   authors:
+  #     - Hadi Hemmati
