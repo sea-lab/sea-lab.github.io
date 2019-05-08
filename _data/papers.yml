@@ -1,6 +1,6 @@
 _2019:
   - title: 'Interactive Semi-automated SpecificationMining for Debugging: An Experience Report'
-    link: False
+    link: https://arxiv.org/pdf/1905.02245.pdf
     venue: Elsevier IST
     authors:
       - Mohammad Jafar Mashhadi
