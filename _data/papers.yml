@@ -15,6 +15,8 @@ _2019:
       - Hadi Hemmati
   - title: An Empirical Study on Practicality of Specification Mining Algorithms on a Real-world Application
     link: https://arxiv.org/abs/1903.11242
+    poster: papers/icpc19poster.pdf
+    presentation: papers/icpc19presentation.pdf
     abstract: Dynamic model inference techniques have been the center of many research projects recently. There are now multiple open source implementations of state-of-the-art algorithms, which provide basic abstraction and merging capabilities. Most of these tools and algorithms have been developed with one particular application in mind, which is program comprehension. The outputs models can abstract away the details of the program and represent the software behavior in a concise and easy to understand form. However, one application context that is less studied is using such inferred models for debugging, where the behavior to abstract is a faulty behavior (eg, a set of execution traces including a failed test case). We tried to apply some of the existing model inference techniques (implemented in a promising tool called MINT) in a real-world industrial context to support program comprehension for debugging. Our initial experiments have shown many limitations both in terms of implementation as well as the algorithms. The paper will discuss the root cause of the failures and proposes ideas for future improvement.
     venue: International Conference on Program Comprehension (ICPC) 2019
     authors:

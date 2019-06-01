@@ -16,6 +16,7 @@ subclass: 'post page'
 {{paper.title}}
 {%endif%}<small> at {{ paper.venue }}</small><br />
 <small>{{paper.authors | join: ', ' }}</small>
+{% if paper.link %}[<img src="assets/images/fulltext.svg" alt="Full Text" width="32" height="32"/>]({{paper.link}}){% endif %} {% if paper.poster %}[<img src="assets/images/poster.svg" alt="Poster" width="32" height="32" />]({{ paper.poster }}){% endif %} {% if paper.presentation %}[<img src="assets/images/presentation.svg" alt="Slides" width="32" height="32" />]({{ paper.presentation }}){% endif %}
 {% endfor %}
 
 {% endfor %}
