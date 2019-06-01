@@ -15,8 +15,8 @@ _2019:
       - Hadi Hemmati
   - title: An Empirical Study on Practicality of Specification Mining Algorithms on a Real-world Application
     link: https://arxiv.org/abs/1903.11242
-    poster: papers/icpc19poster.pdf
-    presentation: papers/icpc19presentation.pdf
+    poster: /papers/icpc19poster.pdf
+    presentation: /papers/icpc19presentation.pdf
     abstract: Dynamic model inference techniques have been the center of many research projects recently. There are now multiple open source implementations of state-of-the-art algorithms, which provide basic abstraction and merging capabilities. Most of these tools and algorithms have been developed with one particular application in mind, which is program comprehension. The outputs models can abstract away the details of the program and represent the software behavior in a concise and easy to understand form. However, one application context that is less studied is using such inferred models for debugging, where the behavior to abstract is a faulty behavior (eg, a set of execution traces including a failed test case). We tried to apply some of the existing model inference techniques (implemented in a promising tool called MINT) in a real-world industrial context to support program comprehension for debugging. Our initial experiments have shown many limitations both in terms of implementation as well as the algorithms. The paper will discuss the root cause of the failures and proposes ideas for future improvement.
     venue: International Conference on Program Comprehension (ICPC) 2019
     authors:
@@ -33,27 +33,27 @@ _2018:
       - Phil McMinn
       - Janis Benefelds
   - title: Evaluating specification-level MC/DC criterion in model-based testing of safety critical systems
-    link: papers/2018-HemmatiArefinLoewen-Evaluating.pdf
+    link: /papers/2018-HemmatiArefinLoewen-Evaluating.pdf
     venue: ICSE 2018
     authors:
       - Hadi Hemmati
       - Syed S Arefin
       - Howard W Loewen
   - title: Investigating NLP-Based Approaches for Predicting Manual Test Case Failure
-    link: papers/2018-HemmatiSharifi-Investigating.pdf
+    link: /papers/2018-HemmatiSharifi-Investigating.pdf
     venue: International Conference on Software Testing (ICST) 2018
     authors:
       - Hadi Hemmati
       - Fatemeh Sharifi
 _2017:
   - title: Studying test case failure prediction for test case prioritization
-    link: papers/false.pdf  # TODO
+    link: /papers/false.pdf  # TODO
     venue: ACM International Conference on Predictive Models and Data Analytics in Software Engineering
     authors:
       - Tanzeem Bin Noor
       - Hadi Hemmati
   - title: Analytics-based safety monitoring and verification
-    link: papers/2017-HemmatiArefinSiddiqui-Analytics.pdf
+    link: /papers/2017-HemmatiArefinSiddiqui-Analytics.pdf
     venue: 2017 IEEE International Conference on Systems, Man, and Cybernetics
     authors:
       - Hadi Hemmati
@@ -69,7 +69,7 @@ _2017:
       - Meiyappan Nagappan
       - Ahmed E Hassan
   - title: Prioritizing manual test cases in rapid release environments
-    link: papers/2017-HemmatiFangMantyla-Prioritizing.pdf
+    link: /papers/2017-HemmatiFangMantyla-Prioritizing.pdf
     venue: Software Testing, Verification and Reliability
     authors:
       - Hadi Hemmati
@@ -77,7 +77,7 @@ _2017:
       - Mika V Mäntylä
       - Bram Adams
   - title: An empirical study of search-based task scheduling in global software development
-    link: papers/false.pdf  # TODO
+    link: /papers/false.pdf  # TODO
     venue: ICSE 2017
     authors:
       - Josiane Kroll
@@ -94,7 +94,7 @@ _2017:
       - Jānis Benefelds
 _2016:
   - title: The risk-utility tradeoff for data privacy models
-    link: papers/2016-AlmasiSiddiqiMohammedHemmati-The.pdf
+    link: /papers/2016-AlmasiSiddiqiMohammedHemmati-The.pdf
     venue: NTMS 2016
     authors:
       - M Moein Almasi 
@@ -103,7 +103,7 @@ _2016:
       - Hadi Hemmati
 _2015:
   - title: A similarity-based approach for test case prioritization using historical failure data
-    link: papers/2015-NoorHemmati-Similarity.pdf
+    link: /papers/2015-NoorHemmati-Similarity.pdf
     venue: ISSRE 2015
     authors:
       - Tanzim Bin Noor
@@ -121,7 +121,7 @@ _2015:
       - Meiyappan Nagappan
       - Ahmed E Hassan
   - title: 'Test case analytics: Mining test case traces to improve risk-driven testing'
-    link: papers/2015-NoorHemmati-Test.pdf
+    link: /papers/2015-NoorHemmati-Test.pdf
     venue: 2015 IEEE 1st International Workshop on Software Analytics (SWAN)
     authors:
       - Tanzim Bin Noor
@@ -134,7 +134,7 @@ _2015:
       - Zhihan Fang
       - Mika V Mäntylä
   - title: Exploring Test Suite Diversification and Code Coverage in Multi-Objective Test Case Selection
-    link: papers/2015-MondalHemmatiDurocher-Exploring.pdf
+    link: /papers/2015-MondalHemmatiDurocher-Exploring.pdf
     venue: International Conference on Software Testing, Verification, and Validation
     authors:
       - Debajyoti Mondal
@@ -142,7 +142,7 @@ _2015:
       - Stephane Durocher
 _2014:
   - title: 'Model-based testing of video conferencing systems: challenges       - lessons learnt       - and results'
-    link: papers/2014-AliHemmati-Modelbased.pdf
+    link: /papers/2014-AliHemmati-Modelbased.pdf
     venue: 2014 IEEE Seventh International Conference on Software Testing       - Verification and Validation
     authors:
       - Shaukat Ali
@@ -156,7 +156,7 @@ _2014:
       - Ahmed E Hassan
       - Dorothea Blostein
   - title: 'ChronoTwigger: A Visual Analytics Tool for Understanding Source and Test Co-Evolution'
-    link: papers/2014-Ensetal-ChronoTwigger.pdf
+    link: /papers/2014-Ensetal-ChronoTwigger.pdf
     venue: IEEE Working Conference on Software Visualization (VISSOFT)
     authors:
       - Barrett Ens       
@@ -184,7 +184,7 @@ _2013:
       - Douglas Neuse
       - Serge Mankovskii
   - title: 'The MSR cookbook: Mining a decade of research'
-    link: papers/false.pdf  # TODO
+    link: /papers/false.pdf  # TODO
     venue: the 10th Working Conference on Mining Software Repositories
     authors:
       - Hadi Hemmati
@@ -212,7 +212,7 @@ _2013:
       - Ahmed E Hassan
       - Patrick Martin
   - title: Achieving scalable model-based testing through test case diversity
-    link: papers/false.pdf  # TODO
+    link: /papers/false.pdf  # TODO
     venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
     authors:
       - Hadi Hemmati
@@ -230,7 +230,7 @@ _2013:
       - S Mankovskii
 _2012:
   - title: Modeling robustness behavior using aspect-oriented modeling to support robustness testing of industrial systems
-    link: papers/2012-AliBriandHemmati-Modeling.pdf
+    link: /papers/2012-AliBriandHemmati-Modeling.pdf
     venue: Software & Systems Modeling
     authors:
       - Shaukat Ali
@@ -238,7 +238,7 @@ _2012:
       - Hadi Hemmati
 _2011:
   - title: Empirical investigation of the effects of test suite properties on similarity-based test case selection
-    link: papers/2011-HemmatiArcuriBriand-Empirical.pdf
+    link: /papers/2011-HemmatiArcuriBriand-Empirical.pdf
     venue: 2011 Fourth IEEE International Conference on Software Testing, Verification and Validation
     authors:
       - Hadi Hemmati
