@@ -35,7 +35,7 @@ Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/
 
 
 ### Publishing changes
-Just `push` your changes. Travis CI will build and publish changes. I repeat, the number of pushes per day is limited, so be careful about the frequency of the changes. You can have multiple commits locally and push them all at once, that's file. Or better, you can use branches properly instead of pushing everything on master. Pushing on other branches won't trigger the deployment pipeline.
+Just `push` your changes. Travis CI will build and publish changes. I should emphasize that the number of pushes per day is limited, so be careful about the frequency of the changes. You can have multiple commits locally and push them all at once, that's fine. Or better, you can use branches properly instead of pushing everything on master. Pushing on other branches won't trigger the deployment pipeline.
 
 
 ## Thanks
