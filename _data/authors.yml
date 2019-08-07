@@ -70,15 +70,15 @@ vesal:
 masoud:
   username: mkf
   name: Masoud Karimi
-  bio: PhD student in Software Engineering
+  bio: PhD student in Software Engineering, Changed his research subject and left the group
   section: phd
-  current: True
+  current: False
 zahra:
   username: salek
   name: Zahra Salek-Shahrezaee
-  bio: PhD student in Software Engineering
+  bio: PhD student in Software Engineering, Quitted the program to pursue her studies in another university.
   section: phd
-  current: True
+  current: False
 taha:
   username: trsiddiqui
   name: Taha Rehman Siddiqui
