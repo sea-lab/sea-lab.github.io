@@ -79,6 +79,14 @@ zahra:
   bio: PhD student in Software Engineering, Quitted the program to pursue her studies in another university.
   section: phd
   current: False
+akul:
+  username: akulgupta
+  name: Akul Gupta
+  bio: "Mitacs Global Link Research Intern: Summer 2019"
+  picture: assets/images/people/akul.jpg
+  section: undergrad
+  current: False
+  linkedin: akul1507
 taha:
   username: trsiddiqui
   name: Taha Rehman Siddiqui
@@ -91,7 +99,7 @@ santoosh:
   name: Tokala Santosh
   picture: assets/images/people/santosh.jpg
   bio: |
-    Summer intern 2018 - Research area: Using Autoencoders and generative models for Automated Testing
+    Mitacs Global Link Research Intern: Summer 2018 - Research area: Using Autoencoders and generative models for Automated Testing
   section: undergrad
   current: False
 almasi:
