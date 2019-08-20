@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/tag/announcements/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/author/akul/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
   <updated>2019-08-20T16:44:01+00:00</updated>
-  <id>/tag/announcements/feed.xml</id>
+  <id>/author/akul/feed.xml</id>
 
   
   
@@ -133,45 +133,5 @@
   
   
 
-  
-    <entry>
-      <title type="html">On ICSE 2019</title>
-      <link href="/ICSE-conference" rel="alternate" type="text/html" title="On ICSE 2019" />
-      <published>2019-04-16T16:00:00+00:00</published>
-      <updated>2019-04-16T16:00:00+00:00</updated>
-      <id>/ICSE-conference</id>
-      <content type="html" xml:base="/ICSE-conference">&lt;p&gt;I am happy to announce that we are going to participate in ICSE 2019 in Montréal.&lt;/p&gt;
-
-&lt;p&gt;Our lab was very productive in 2018 year and we had two accepted papers in the conference (and co-located conferences), one student volunteer, and two students on the &lt;a href=&quot;https://2019.icse-conferences.org/track/icse-2019-Software-Engineering-Mentoring-Workshop&quot;&gt;mentorship workshop program&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We look forward to see you there!&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;Picture credit: Marc-Olivier Jodoin&lt;/small&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hadi Hemmati</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="announcements" />
-      
-
-      
-        <summary type="html">I am happy to announce that we are going to participate in ICSE 2019 in Montréal.</summary>
-      
-
-      
-      
-    </entry>
   
 </feed>
