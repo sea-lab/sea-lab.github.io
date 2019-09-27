@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="/author/masoud/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/author/yuaqing/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-08-20T16:44:01+00:00</updated>
-  <id>/author/masoud/feed.xml</id>
+  <updated>2019-09-27T19:40:24+00:00</updated>
+  <id>/author/yuaqing/feed.xml</id>
 
   
   
@@ -48,18 +48,11 @@
       
     
       
+    
+      
 				<author>Arefin Sami</author>
         <author>
             <name>Arefin Sami</name>
-          
-          
-        </author>
-			
-    
-      
-				<author>Fatemeh Sharifi</author>
-        <author>
-            <name>Fatemeh Sharifi</name>
           
           
         </author>
