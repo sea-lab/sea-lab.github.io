@@ -67,18 +67,18 @@ vesal:
   picture: assets/images/people/maryam.jpg
   section: masters
   current: True
-masoud:
-  username: mkf
-  name: Masoud Karimi
-  bio: PhD student in Software Engineering, Changed his research subject and left the group
-  section: phd
-  current: False
+# masoud:
+#   username: mkf
+#   name: Masoud Karimi
+#   bio: PhD student in Software Engineering, Changed his research subject and left the group
+#   section: phd
+#   current: False
 zahra:
   username: salek
   name: Zahra Salek-Shahrezaee
-  bio: PhD student in Software Engineering, Quitted the program to pursue her studies in another university.
+  bio: PhD student in Software Engineering #, Quitted the program to pursue her studies in another university.
   section: phd
-  current: False
+  current: True
 akul:
   username: akulgupta
   name: Akul Gupta
@@ -87,6 +87,17 @@ akul:
   section: undergrad
   current: False
   linkedin: akul1507
+yuaqing:
+  username: yuama
+  name: Yuaqing Ma
+  bio: "Mitacs Global Link Research Intern: Summer 2019"
+  section: undergrad
+  current: True
+aman:
+  username: amantanvir
+  name: Aman Tanvir
+  section: phd
+  linkedin: amantanvir
 taha:
   username: trsiddiqui
   name: Taha Rehman Siddiqui
@@ -109,17 +120,16 @@ almasi:
   current: False
   bio: |
     Thesis: “Search-based Testing in Financial Applications” 
-
 arefin:
   current: False
   section: masters
   name: Arefin Sami
   bio: |
     Thesis: “Model-Based Testing of Safety-Critical Avionic Systems” 
-fateme:
-  current: False
-  section: masters
-  name: Fatemeh Sharifi
+# fateme:
+#   current: False
+#   section: phd
+#   name: Fatemeh Sharifi
 tanzeem:
   current: False
   section: masters
