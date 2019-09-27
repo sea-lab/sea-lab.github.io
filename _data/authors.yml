@@ -28,7 +28,7 @@ nima:
       Desc: Goal of this project is to make an interactive semi-automated tool which can help the domain expert merge a new geospatial dataset with the database in a GIS system.
   picture: assets/images/people/nima.jpg
   section: masters
-  current: True
+  current: False
 shayan:
   username: szamani
   name: Shayan Zamani
