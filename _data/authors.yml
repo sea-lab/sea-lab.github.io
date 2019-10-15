@@ -92,7 +92,7 @@ yuqing:
   name: Yuqing Ma
   bio: "Mitacs Global Link Research Intern: Summer 2019"
   section: undergrad
-  current: True
+  current: False
   picture: assets/images/people/yuqing.jpg
 aman:
   username: amantanvir
