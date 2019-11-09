@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/announcements/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-10-22T21:18:30+00:00</updated>
+  <updated>2019-11-09T21:46:19+00:00</updated>
   <id>/tag/announcements/feed.xml</id>
 
   
@@ -126,6 +126,82 @@
   
   
 
+  
+    <entry>
+      <title type="html">On ASE 2019</title>
+      <link href="/ASE-conference" rel="alternate" type="text/html" title="On ASE 2019" />
+      <published>2019-11-08T16:00:00+00:00</published>
+      <updated>2019-11-08T16:00:00+00:00</updated>
+      <id>/ASE-conference</id>
+      <content type="html" xml:base="/ASE-conference">&lt;p&gt;Our lab’s latest journal paper, &lt;a href=&quot;https://arxiv.org/pdf/1905.02245.pdf&quot;&gt;Interactive Semi-automated SpecificationMining for Debugging: An Experience Report&lt;/a&gt;, is accepted to be presented at journal first conference second track of ASE conference.&lt;/p&gt;
+
+&lt;p&gt;In that reserach project in close collaboration with our industry partner, we developed a novel debugging method using latest specification mining methods. The developers in the company found this method (and the tool developed along with it) a valuable asset and a useful asset in their toolbox.&lt;/p&gt;
+
+&lt;p&gt;I am looking forward to see you all in the conference and have some chat about it.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hadi Hemmati</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="announcements" />
+      
+
+      
+        <summary type="html">Our lab’s latest journal paper, Interactive Semi-automated SpecificationMining for Debugging: An Experience Report, is accepted to be presented at journal first conference second track of ASE conference.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">On ASE 2019</title>
+      <link href="/ASE-conference-copy" rel="alternate" type="text/html" title="On ASE 2019" />
+      <published>2019-11-08T16:00:00+00:00</published>
+      <updated>2019-11-08T16:00:00+00:00</updated>
+      <id>/ASE-conference%20copy</id>
+      <content type="html" xml:base="/ASE-conference-copy">&lt;p&gt;Our lab’s latest journal paper, &lt;a href=&quot;https://arxiv.org/pdf/1905.02245.pdf&quot;&gt;Interactive Semi-automated SpecificationMining for Debugging: An Experience Report&lt;/a&gt;, is accepted to be presented at journal first conference second track of ASE conference.&lt;/p&gt;
+
+&lt;p&gt;In that reserach project in close collaboration with our industry partner, we developed a novel debugging method using latest specification mining methods. The developers in the company found this method (and the tool developed along with it) a valuable asset and a useful asset in their toolbox.&lt;/p&gt;
+
+&lt;p&gt;I am looking forward to see you all in the conference and have a little chat about it.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hadi Hemmati</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="announcements" />
+      
+
+      
+        <summary type="html">Our lab’s latest journal paper, Interactive Semi-automated SpecificationMining for Debugging: An Experience Report, is accepted to be presented at journal first conference second track of ASE conference.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">On ICSE 2019</title>
