@@ -1,4 +1,19 @@
 _2019:
+  - title: "GloBug: Using Global Data in Fault Localization"
+    link: -
+    venue: TBA
+    authors:
+      - TBA
+  - title: "Class Prioritization for Hyper-parameter Tuning in Search-based Software Testing"
+    link: https://wcm.ucalgary.ca/hemmati/files/hemmati/icst2020shayan.pdf
+    venue: TBA
+    authors:
+      - TBA
+  - title: "Comparing Coverage & Mutation-based Adequacy Criteria for Testing Deep Neural Networks"
+    link: https://wcm.ucalgary.ca/hemmati/files/hemmati/icst2020maryam.pdf
+    venue: TBA
+    authors:
+      - TBA
   - title: 'Revisiting Hyper-Parameter Tuning for Search-based Test Data Generation'
     link: http://arxiv.org/abs/1906.02349
     venue: SSBSE 2019
