@@ -60,6 +60,7 @@ soheila:
   picture: assets/images/people/soheila.jpg
   section: masters
   current: True
+  linkedin: soheilazangeneh
 vesal:
   username: vmvahdatpour
   name: Maryam Vahdat Pour
@@ -67,6 +68,7 @@ vesal:
   picture: assets/images/people/maryam.jpg
   section: masters
   current: True
+  linkedin: maryam-vahdat-pour
 # masoud:
 #   username: mkf
 #   name: Masoud Karimi
