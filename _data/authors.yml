@@ -3,8 +3,8 @@ hadi:
   name: Hadi Hemmati
   url: Schulich Homepage
   url_full: https://schulich.ucalgary.ca/hemmati/
-  long_bio: Hadi is an assistant professor in Software Engineering at Electrical and Computer Engineering department, University of Calgary. He also holds an adjunct position at computer science department, University of Manitoba, where he used to work prior to joining UCalgary in Jan 2017.
-  bio: Faculty member. Tenure associate professor at Schulich School of Engineering, University of Calgary
+  long_bio: Hadi is an Associate Professor in Software Engineering at Electrical and Computer Engineering department, University of Calgary. He also holds an adjunct position at computer science department, University of Manitoba, where he used to work prior to joining UCalgary in Jan 2017.
+  bio: Faculty member. Tenured, Associate Professor at Schulich School of Engineering, University of Calgary
   twitter: hemmatihadi
   picture: assets/images/people/hadi.jpg
   section: faculty
@@ -64,7 +64,7 @@ soheila:
 vesal:
   username: vmvahdatpour
   name: Maryam Vahdat Pour
-  bio: Maryam is a first year Master’s student in SEA Lab. She received her bachelor’s in Computer Science at University of Tehran, Tehran, Iran. Currently, She is mainly focused on the Tensor-flow ecosystem and is trying to find the most important challenges machine learning developers face in this ecosystem and try to come up with Software Engineering solutions for instance about debugging, version control, and program comprehension.
+  bio: Maryam is a second year Master’s student in SEA Lab. She received her bachelor’s in Computer Science at University of Tehran, Tehran, Iran. Currently, She is mainly focused on the Tensor-flow ecosystem and is trying to find the most important challenges machine learning developers face in this ecosystem and try to come up with Software Engineering solutions for instance about debugging, version control, and program comprehension.
   picture: assets/images/people/maryam.jpg
   section: masters
   current: True
@@ -75,12 +75,19 @@ vesal:
 #   bio: PhD student in Software Engineering, Changed his research subject and left the group
 #   section: phd
 #   current: False
-zahra:
-  username: salek
-  name: Zahra Salek-Shahrezaee
-  bio: PhD student in Software Engineering #, Quitted the program to pursue her studies in another university.
-  section: phd
+#zahra:
+#  username: salek
+#  name: Zahra Salek-Shahrezaee
+#  bio: PhD student in Software Engineering #, Quitted the program to pursue her studies in another university.
+#  section: phd
+#  current: True
+nadun:
+  username: nadun
+  name: Nadun Wijesinghe
+  bio: Part-time MSc student in Software Engineering - Senior Software Developer at Shaw Communications
+  section: masters
   current: True
+  linkedin: nadun-wijesinghe
 akul:
   username: akulgupta
   name: Akul Gupta
@@ -96,12 +103,12 @@ yuqing:
   section: undergrad
   current: False
   picture: assets/images/people/yuqing.jpg
-aman:
-  username: amantanvir
-  name: Aman Tanvir
-  section: phd
-  linkedin: amantanvir
-  current: True
+#aman:
+#  username: amantanvir
+#  name: Aman Tanvir
+#  section: phd
+#  linkedin: amantanvir
+#  current: True
 taha:
   username: trsiddiqui
   name: Taha Rehman Siddiqui
