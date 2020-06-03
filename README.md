@@ -17,10 +17,10 @@ Make changes to `_data/authors.yml`. You can mark people that are graduated with
 ```
 
 
-If you enter other values they silently won't show up on people page.
+If you enter other values they won't show up on people page (silently, with no errors).
 
 ### Updating the website
-Number of builds (published updates) per day is limited, so test and check your changes before publishing locally. To do that use `bundle exec jekyll serve`
+Number of builds (published updates) per day is limited, so try to test and check your changes before publishing locally first. To try the site on your machine use `bundle exec jekyll serve`.
 
 
 ### Updating styleseets
@@ -35,7 +35,7 @@ Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/
 
 
 ### Publishing changes
-Just `push` your changes. Travis CI will build and publish changes. I should emphasize that the number of pushes per day is limited, so be careful about the frequency of the changes. You can have multiple commits locally and push them all at once, that's fine. Or better, you can use branches properly instead of pushing everything on master. Pushing on other branches won't trigger the deployment pipeline.
+Just `push` your changes, Travis CI will build and publish changes. Since the number of builds per day is limited, to not hit the limit you can use some simple tricks. You can have multiple commits locally and push them all at once. Or better, you can use branches properly instead of pushing everything on master. Pushing on other branches won't trigger the deployment pipeline.
 
 
 ## Thanks
