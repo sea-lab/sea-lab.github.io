@@ -9,6 +9,37 @@ hadi:
   picture: assets/images/people/hadi.jpg
   section: faculty
   current: True
+armin:
+  username: arminzirak
+  name: Armin Zirak
+  bio: Masters student in Software Engineering
+  long_bio: |
+      Armin is an MSc student at University of Calgary who is interested in Machine Learning Engineering. His research is mainly on the challenges of bringing deep learning models in software. For example, he tries to find automated and efficient hyper-parameter tuning methods, develop tools for debugging deep neural networks, and analyze them in terms of robustness. Before his graduate studies, he was a data scientist at the largest advertising platform in Iran and received a bachelor's degree from University of Tehran.
+  picture: assets/images/people/armin.jpg
+  section: masters
+  current: True
+  linkedin: arminzirak
+  twitter: aarrmmiinn1
+foozhan:
+  username: foozhan
+  name: Foozhan Ataiefard
+  bio: Masters student in Software Engineering
+  long_bio: |
+      Foozhan is a Msc student in SEA lab researching new ways of detecting anomalous behavior in self-driving cars. He got his bachelor's in computer science from Amirkabir university of technology. He is interested in computer vision and deep Learning.
+  picture: assets/images/people/foozhan.jpg
+  section: masters
+  current: True
+  linkedin: foozhan-ataiefard-544781108
+  twitter: Foozhan6
+emad:
+  username: emad
+  name: Emad Jabbar
+  bio: Masters student in Software Engineering
+  long_bio: |
+      Emad is an MSc student in SEA Lab.
+  picture: assets/images/people/emad.jpg
+  section: masters
+  current: True
 nima:
   username: nimamiryeganeh
   name: Nima Miryeganeh
