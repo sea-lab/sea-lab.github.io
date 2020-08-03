@@ -36,10 +36,11 @@ emad:
   name: Emad Jabbar
   bio: Masters student in Software Engineering
   long_bio: |
-      Emad is an MSc student in SEA Lab.
+      Emad is a first-year MSc student in SEA Lab. He received his bachelor's degree in Software Engineering from the University of Tehran. He is interested in machine learning and NLP. His current research focus is on learning vector-space representations of program behavior.
   picture: assets/images/people/emad.jpg
   section: masters
   current: True
+  linkedin: emad-jabbar-7a3659b6
 nima:
   username: nimamiryeganeh
   name: Nima Miryeganeh
