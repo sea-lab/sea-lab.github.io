@@ -26,11 +26,12 @@ _2019:
     venue: TBA
     authors:
       - TBA
-  - title: "Class Prioritization for Hyper-parameter Tuning in Search-based Software Testing"
-    link: https://wcm.ucalgary.ca/hemmati/files/hemmati/icst2020shayan.pdf
-    venue: TBA
+  - title: "A Cost-Effective Approach for Hyper-Parameter Tuning in Search-based Test Case Generation"
+    link: TBA
+    venue: ICSME 2020
     authors:
-      - TBA
+      - Shayan Zamani
+      - Hadi Hemmati
   - title: "Comparing Coverage & Mutation-based Adequacy Criteria for Testing Deep Neural Networks"
     link: https://wcm.ucalgary.ca/hemmati/files/hemmati/icst2020maryam.pdf
     venue: TBA
