@@ -20,18 +20,20 @@ _2020:
     authors:
       - Mohammad Jafar Mashhadi
       - Hadi Hemmati
-_2019:
-  - title: "GloBug: Using Global Data in Fault Localization"
-    link: "-"
-    venue: TBA
-    authors:
-      - TBA
+
   - title: "A Cost-Effective Approach for Hyper-Parameter Tuning in Search-based Test Case Generation"
     link: TBA
     venue: ICSME 2020
     authors:
       - Shayan Zamani
       - Hadi Hemmati
+
+_2019:
+  - title: "GloBug: Using Global Data in Fault Localization"
+    link: "-"
+    venue: TBA
+    authors:
+      - TBA
   - title: "Comparing Coverage & Mutation-based Adequacy Criteria for Testing Deep Neural Networks"
     link: https://wcm.ucalgary.ca/hemmati/files/hemmati/icst2020maryam.pdf
     venue: TBA
