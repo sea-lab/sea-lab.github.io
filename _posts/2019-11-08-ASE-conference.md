@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/San_Diego_Reflecting_Pond.jpg/1024px-San_Diego_Reflecting_Pond.jpg
+cover: /upload.wikimedia.org/wikipedia/commons/thumb/c/c3/San_Diego_Reflecting_Pond.jpg/1024px-San_Diego_Reflecting_Pond.jpg
 navigation: True
 title: On ASE 2019
 date: 2019-11-08 16:00:00
