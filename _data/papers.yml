@@ -1,6 +1,7 @@
 _2020:
   - title: "Hybrid Deep Neural Networks to Infer State Models of Black-Box Systems"
-    link: /papers/2020-Hybrid.pdf
+    link: https://arxiv.org/abs/2008.11856
+    presentation: /papers/ase2020presentation.pdf
     abstract: >
       Inferring behavior model of a running software system is quite useful for several automated software engineering tasks,
       such as program comprehension, anomaly detection, and testing. Most existing dynamic model inference techniques are 
