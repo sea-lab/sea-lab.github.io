@@ -66,7 +66,7 @@ shayan:
   name: Shayan Zamani
   bio: Shayan is an MSc Student in Software Engineering. He holds a bachelor in Petroleum Engineering from Sharif University of Technology in Tehran, Iran. His current research is about investigating the effectiveness of hyperparameters’ tuning on different problems in SE specifically search-based software testing.
   section: masters
-  current: True
+  current: False
   picture: assets/images/people/shayan.jpg
   linkedin: shayanzamani
 mjafar:
@@ -76,14 +76,14 @@ mjafar:
   url_full: https://mjafar.me
   twitter: MashhadiMJ
   bio: |
-    Mohammad Jafar (MJ) is doing his MSc on Specification Mining and Software Testing here at SEA lab. His research
+    Mohammad Jafar (MJ) has done his MSc on Specification Mining and Software Testing here at SEA lab. His research
     is in collaboration with <a href="https://www.micropilot.com/" rel="nofollow" target="_blank">Micropilot Inc</a>, 
     the world leader manufacturer of UAV autopilot software and hardware.
     He completed his bachelor of Software Engineering at Sharif University of Technology in 2017. 
     He is also a co-founder and technical director of Nivad Cloud startup.
   linkedin: mjafarmashhadi
   section: masters
-  current: True
+  current: False
   picture: assets/images/people/mj.jpg
 soheila:
   username: soheila
@@ -99,7 +99,7 @@ vesal:
   bio: Maryam is a second year Master’s student in SEA Lab. She received her bachelor’s in Computer Science at University of Tehran, Tehran, Iran. Currently, She is mainly focused on the Tensor-flow ecosystem and is trying to find the most important challenges machine learning developers face in this ecosystem and try to come up with Software Engineering solutions for instance about debugging, version control, and program comprehension.
   picture: assets/images/people/maryam.jpg
   section: masters
-  current: True
+  current: False
   linkedin: maryam-vahdat-pour
 # masoud:
 #   username: mkf
