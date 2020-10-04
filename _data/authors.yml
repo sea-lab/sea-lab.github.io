@@ -41,26 +41,6 @@ emad:
   section: masters
   current: True
   linkedin: emad-jabbar-7a3659b6
-nima:
-  username: nimamiryeganeh
-  name: Nima Miryeganeh
-  bio: Masters student in Software Engineering
-  long_bio: |
-      My Current Research Focus: Automated Bug Localization 
-      My Favourite Topics: 
-      <ul>
-        <li>Natural Language Processing (NLP)</li>
-        <li>Machine Learning</li>
-        <li>Software Engineering</li>
-      </li>
-      My Favourite Coding Languages: Python
-      Internship:
-      6 months Internship at LocalIntel Inc. 
-      An Interactive Semi-Automatic Tool for Integeration of Geo-spatial Datasets
-      Desc: Goal of this project is to make an interactive semi-automated tool which can help the domain expert merge a new geospatial dataset with the database in a GIS system.
-  picture: assets/images/people/nima.jpg
-  section: masters
-  current: False
 shayan:
   username: szamani
   name: Shayan Zamani
@@ -113,6 +93,26 @@ vesal:
 #  bio: PhD student in Software Engineering #, Quitted the program to pursue her studies in another university.
 #  section: phd
 #  current: True
+nima:
+  username: nimamiryeganeh
+  name: Nima Miryeganeh
+  bio: Masters student in Software Engineering
+  long_bio: |
+      My Current Research Focus: Automated Bug Localization 
+      My Favourite Topics: 
+      <ul>
+        <li>Natural Language Processing (NLP)</li>
+        <li>Machine Learning</li>
+        <li>Software Engineering</li>
+      </li>
+      My Favourite Coding Languages: Python
+      Internship:
+      6 months Internship at LocalIntel Inc. 
+      An Interactive Semi-Automatic Tool for Integeration of Geo-spatial Datasets
+      Desc: Goal of this project is to make an interactive semi-automated tool which can help the domain expert merge a new geospatial dataset with the database in a GIS system.
+  picture: assets/images/people/nima.jpg
+  section: masters
+  current: False
 nadun:
   username: nadun
   name: Nadun Wijesinghe
